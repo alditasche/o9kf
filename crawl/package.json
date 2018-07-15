@@ -1,0 +1,24 @@
+{
+  "name": "crawl",
+  "version": "1.0.0",
+  "description": "web crawler extracting country-specific content from CIA's \"The World's Factbook\" (https://www.cia.gov/library/publications/the-world-factbook/) ",
+  "main": "crawl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "web",
+    "crawling",
+    "nodejs"
+  ],
+  "author": "BAmikefarmer01",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.2.3",
+    "request": "^2.87.0",
+    "url-parse": "^1.4.1"
+  }
+}
