@@ -22,7 +22,7 @@ var test = CCName.find({}, function(err, docs) {
 
 	}
 
-	for (y = 120; y < 134; y++) { 
+	for (y = 100; y < 134; y++) { 
 		cc = ccs[y].toLowerCase();
 
 		url = 'https://www.cia.gov/library/publications/the-world-factbook/geos/print_' + cc + '.html';
